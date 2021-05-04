@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FileLoaderComponent } from './file-loader/file-loader.component';
+import { LayoutConfigComponent } from './layout-config/layout-config.component';
+import { NotesConfigComponent } from './notes-config/notes-config.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FileLoaderComponent,
+    LayoutConfigComponent,
+    NotesConfigComponent
   ],
   imports: [
     BrowserModule,
