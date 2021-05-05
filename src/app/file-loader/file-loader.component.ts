@@ -29,7 +29,7 @@ export class FileLoaderComponent implements OnInit {
     reader.addEventListener('load', (e) => {
       const data = e.target.result;
       this.fileXmlService.setText(data.toString());
-      this.router.navigateByUrl('/layout');
+      this.router.navigateByUrl('/midimap');
     });
 
     reader.readAsText(file);

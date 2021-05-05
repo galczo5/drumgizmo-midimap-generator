@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import {FileLoaderComponent} from './file-loader/file-loader.component';
 import {LayoutConfigComponent} from './layout-config/layout-config.component';
 import {NotesConfigComponent} from './notes-config/notes-config.component';
+import {MidimapComponent} from './midimap/midimap.component';
 
 const routes: Routes = [
-  { path: '', component: FileLoaderComponent },
-  { path: 'layout', component: LayoutConfigComponent },
-  { path: 'notes', component: NotesConfigComponent }
+  { path: '', component: LayoutConfigComponent },
+  { path: 'notes', component: NotesConfigComponent },
+  { path: 'file', component: FileLoaderComponent },
+  { path: 'midimap', component: MidimapComponent }
 ];
 
 @NgModule({

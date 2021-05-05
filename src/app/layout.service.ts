@@ -5,8 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class LayoutService {
 
-  private x: number;
-  private y: number;
+  private x = 4;
+  private y = 4;
 
   constructor() { }
 

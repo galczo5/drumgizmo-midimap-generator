@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FileLoaderComponent } from './file-loader/file-loader.component';
 import { LayoutConfigComponent } from './layout-config/layout-config.component';
 import { NotesConfigComponent } from './notes-config/notes-config.component';
+import { MidimapComponent } from './midimap/midimap.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FileLoaderComponent,
     LayoutConfigComponent,
-    NotesConfigComponent
+    NotesConfigComponent,
+    MidimapComponent
   ],
   imports: [
     BrowserModule,
